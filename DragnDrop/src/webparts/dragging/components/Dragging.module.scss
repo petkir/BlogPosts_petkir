@@ -1,0 +1,29 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.dragging {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+ }
+  .row {
+    @include ms-Grid-row;
+    padding: 20px;
+  }
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg4;
+    @include ms-xl4;
+    border: 1px solid $ms-color-neutralLighter;
+    h2 {
+      text-align: center;
+    }
+    .columnitems {
+      display: block;
+      div{
+        margin: 10px 0px;
+        padding: 10px 0px;
+        background-color: $ms-color-alertBackground;
+      }
+    }
+  }
+}

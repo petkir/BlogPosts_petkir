@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dragging-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dragging/DraggingWebPart.js",
+          "manifest": "./src/webparts/dragging/DraggingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DraggingWebPartStrings": "lib/webparts/dragging/loc/{locale}.js"
+  }
+}
