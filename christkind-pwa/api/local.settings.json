@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureWebJobsStorage": "",
+    "TableStorageUri": "",
+    "DataVerseConnection": "",
+    "ClientID": "",
+    "TenantID": "",
+    "OpenAIServiceUrl" : "",
+    "OpenAIServiceApiKey" : ""
+  }
+}
