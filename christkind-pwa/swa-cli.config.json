@@ -1,0 +1,18 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "christkind-pwa": {
+      "appLocation": ".",
+      "apiLocation": "api",
+      "outputLocation": "build",
+      "dataApiLocation": "api",
+      "apiLanguage": "dotnetisolated",
+      "apiVersion": "8.0",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:3000",
+      "apiDevserverUrl": "http://localhost:7071"
+    }
+  }
+}
